@@ -1,0 +1,20 @@
+.banner{
+    padding-top:13rem;
+}
+.banner-img{
+    padding-top:6rem;
+}
+.banner-developer{
+    color: tomato;
+}
+.banner-welcome{
+    color:rgb(250, 196, 238)
+}
+@media  (max-width: 768px){
+    .banner{
+        padding-top:5rem;
+    }
+    .banner-img{
+        padding-top:3rem;
+    }
+}
