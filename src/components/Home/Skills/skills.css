@@ -1,0 +1,23 @@
+.skills-section{
+    padding-top:4rem;
+    padding-bottom: 3rem;
+    overflow-x: hidden;
+}
+.card-item{
+    color: rgb(0, 0, 255);
+}
+.card-item-two{
+    color:rgb(211, 82, 8)
+}
+.card-bg{
+    background-color:rgba(160, 160, 175, 0.767);
+}
+.card-title-style{
+    font-weight:bolder;
+}
+
+@media (max-width: 768px){
+    .skills-section{
+        padding-top: 0rem;
+    }
+}
