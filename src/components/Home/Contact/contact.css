@@ -1,0 +1,17 @@
+.contact-heading{
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+.contact{
+    padding-bottom: 6rem;
+}
+.form{
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; */
+    margin: 0 auto;
+}
+.form button{
+    width: 10rem;
+    border-radius: 13px;
+}

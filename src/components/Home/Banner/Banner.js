@@ -11,7 +11,7 @@ const Banner = () => {
         Aos.init({ duration: 2000 });
     }, []);
     return (
-        <div className="mt-5">
+        <div id="home" className="mt-5">
             <img className="mt-5 pt-2 img-fluid" src={img2} alt="" style={{ width: "3rem", float: "left" }} />
             <div className="row align-items-start">
                 <div data-aos="flip-left" className="col-12 col-md-6 banner">
