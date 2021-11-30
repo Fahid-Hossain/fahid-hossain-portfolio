@@ -5,8 +5,14 @@
     overflow-x:hidden;
 }
 .about-description{
-    margin-top:4rem;
+    margin-top:2rem;
 }
 html{
     scroll-behavior: smooth;
+}
+@media (max-width:768px) {
+    .about-description{
+        /* margin-top: 0rem; */
+        padding-top: 0rem;
+    }
 }

@@ -23,7 +23,7 @@ const Contact = () => {
     return (
         <div id="contact" className="container contact">
             <h1 className="text-warning contact-heading">Contact</h1>
-            <Form ref={Form} onSubmit={sendEmail} className="w-50 form">
+            <Form ref={Form} onSubmit={sendEmail} className="form">
                 <>
                     <FloatingLabel
                         controlId="floatingInput"
@@ -31,7 +31,7 @@ const Contact = () => {
                         className="mb-3"
                         
                     >
-                        <Form.Control type="text" name="name" placeholder="name" />
+                        <Form.Control className="form-input" type="text" name="name" placeholder="name" />
                     </FloatingLabel>
 
                     <FloatingLabel
@@ -41,7 +41,7 @@ const Contact = () => {
                         className="mb-3"
                        
                     >
-                        <Form.Control type="email" name="email" placeholder="name@example.com" />
+                        <Form.Control className="form-input" type="email" name="email" placeholder="name@example.com" />
                     </FloatingLabel>
                 </>
 
@@ -50,8 +50,9 @@ const Contact = () => {
                         <Form.Control
                             as="textarea"
                             placeholder="Leave a message here"
-                            style={{ height: '100px' }}
+                            style={{ height: '100px'}}
                             name="message"
+                            className="form-input"
                         />
                     </FloatingLabel>
                 </>
