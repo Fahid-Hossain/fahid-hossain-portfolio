@@ -10,7 +10,17 @@
             "second": "Express.JS",
             "third": "MongoDB",
             "fourth": "Firebase",
-            "fifth": "Material-UI"
+            "fifth": "Material-UI",
+            "sixth":"Context Api",
+            "seventh":"useAuth"
+        },
+        "details":{
+            "first":"Display Products in page",
+            "second":"User can order product",
+            "third":"Customer can give a review which will displayed in UI",
+            "fourth":"Admin can control user dashboard funtionality",
+            "fifth":"Sign-up and sign-in fuctionality",
+            "sixth":"User and admin have different dashboard by sign-in"
         },
         "links": {
             "liveSite": "https://chasmish-glasses-store.web.app/",
@@ -19,8 +29,12 @@
         },
         "images": {
             "banner":"https://i.ibb.co/180nFnS/chashmish.png",
-            "first": "",
-            "third": ""
+            "first": "https://i.ibb.co/p2D38XC/chasmish-3-device.png",
+            "third": "https://i.ibb.co/ykbKShb/chasmish-S-1.png",
+            "fourth": "https://i.ibb.co/gDjv64X/chasmish-S-2.png",
+            "fifth": "https://i.ibb.co/LZD29Ms/chasmish-S-4.png",
+            "sixth": "https://i.ibb.co/cXrRG5S/chasmish-S-5.png",
+            "seventh": "https://i.ibb.co/WxJBtDd/chasmish-S-6.png"
         }
     },
     {
