@@ -3,6 +3,7 @@ import Navigation from '../../Navigation/Navigation';
 import About from '../About.js/About';
 import Banner from '../Banner/Banner';
 import Contact from '../Contact/Contact';
+import Projects from '../projects/Projects';
 import Skills from '../Skills/Skills';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <Navigation></Navigation>
             <Banner></Banner>
             <Skills></Skills>
+            <Projects></Projects>
             <About></About>
             <Contact></Contact>
         </div>
