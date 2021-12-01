@@ -12,12 +12,12 @@ const Navigation = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <img src={logo} alt="" style={{width:"7rem"}}/>
                         <Nav className="ms-auto">
-                            <Nav.Link href="#home"  className="navlink">HOME</Nav.Link>
-                            <Nav.Link href="#about" className="navlink">ABOUT</Nav.Link>
-                            <Nav.Link href="#services" className="navlink">SERVICES</Nav.Link>
-                            <Nav.Link href="#skills" className="navlink">SKILLS</Nav.Link>
-                            <Nav.Link href="#projects" className="navlink">PROJECTS</Nav.Link>
-                            <Nav.Link href="#contact" className="navlink">CONTACT</Nav.Link>
+                            <Nav.Link href="/#home"  className="navlink">HOME</Nav.Link>
+                            <Nav.Link href="/#about" className="navlink">ABOUT</Nav.Link>
+                            <Nav.Link href="/#services" className="navlink">SERVICES</Nav.Link>
+                            <Nav.Link href="/#skills" className="navlink">SKILLS</Nav.Link>
+                            <Nav.Link href="/#projects" className="navlink">PROJECTS</Nav.Link>
+                            <Nav.Link href="/#contact" className="navlink">CONTACT</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -67,7 +67,7 @@ const Skills = () => {
                 {/* --------------------  */}
                 <div className="col-12 col-md-6 me-3">
                     <div className="row">
-                        <div className="col-sm-3 py-3 card-main">
+                        <div className="col-6 col-sm-3 py-3 card-main">
                             <div className="card card-item">
                                 <div className="card-body card-bg">
                                     <h5 className="card-title"><i className="fab fa-html5 fs-1"></i></h5>
@@ -75,7 +75,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-3 py-3">
+                        <div className="col-6 col-sm-3 py-3">
                             <div className="card card-item-two">
                                 <div className="card-body">
                                 <h5 className="card-title"><i className="fab fa-css3-alt fs-1"></i></h5>
@@ -83,7 +83,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-3 py-3">
+                        <div className="col-12 col-sm-3 py-3">
                             <div className="card">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fab fa-node-js fs-1"></i></h5>
@@ -91,7 +91,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-3 py-3">
+                        <div className="col-12 col-sm-3 py-3">
                             <div className="card card-item">
                                 <div className="card-body">
                                 <h5 className="card-title"><i className="fab fa-react fs-1"></i></h5>
@@ -107,7 +107,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-3 py-3">
+                        <div className="col-6 col-sm-3 py-3">
                             <div className="card">
                                 <div className="card-body">
                                 <h5 className="card-title"><i className="fas fa-cogs fs-1"></i></h5>
@@ -115,7 +115,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-3 py-3">
+                        <div className="col-6 col-sm-3 py-3">
                             <div className="card card-item-two">
                                 <div className="card-body">
                                 <h5 className="card-title"><i className="fas fa-tasks fs-1"></i></h5>
@@ -123,7 +123,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-3 py-3">
+                        <div className="col-6 col-sm-3 py-3">
                             <div className="card card-item">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fas fa-fire-alt fs-1"></i></h5>
@@ -131,7 +131,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-3 py-3">
+                        <div className="col-6 col-sm-3 py-3">
                             <div className="card">
                                 <div className="card-body">
                                 <h5 className="card-title"><i className="fab fa-bootstrap fs-1"></i></h5>
@@ -139,7 +139,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-3 py-3">
+                        <div className="col-6 col-sm-3 py-3">
                             <div className="card card-item-two">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fas fa-sync-alt fs-1"></i></h5>
@@ -147,7 +147,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-3 py-3">
+                        <div className="col-6 col-sm-3 py-3">
                             <div className="card card-item">
                                 <div className="card-body">
                                 <h5 className="card-title"><i className="fab fa-stack-overflow fs-1"></i></h5>

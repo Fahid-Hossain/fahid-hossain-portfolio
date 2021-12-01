@@ -83,7 +83,18 @@
             "first": "React JS",
             "second": "Tailwind-Css",
             "third": "JS",
-            "fourth": "Firebase"
+            "fourth": "Firebase",
+            "fifth":"Context api",
+            "sixth":"useAuth",
+            "seventh":"custom hooks"
+        },
+        "details":{
+            "first":"Different Department of Services",
+            "second":"Doctors Information Provide",
+            "third":"New user sign-up funtionality",
+            "fourth":"Get User info with Sign-in funtionality",
+            "fifth":"Private Route setup for sign-in",
+            "sixth":"Google sign-in fuctionality"
         },
         "links": {
             "liveSite": "https://docmed-health-care.web.app/",
@@ -92,9 +103,10 @@
         },
         "images": {
             "banner":"https://i.ibb.co/rF8sQ9v/docmed.png",
-            "first": "",
-            "second": "",
-            "third": ""
+            "first": "https://i.ibb.co/5vmb2V7/docmed-S-1.png",
+            "second": "https://i.ibb.co/S6HW0kY/docmed-S-2.png",
+            "third": "https://i.ibb.co/Y8tQnJC/docmed-S-3.png",
+            "fourth":"https://i.ibb.co/34qvw58/docmed-S-4.png"
         }
     }
 ]

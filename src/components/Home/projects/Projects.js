@@ -1,5 +1,6 @@
 import Button from '@restart/ui/esm/Button';
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import "./projects.css"
 
 const Projects = () => {
@@ -34,7 +35,9 @@ const Projects = () => {
 
                                         <Button className="btn btn-outline-primary"><a href={data.links.liveSite} className="text-decoration-none" rel="noreferrer" target="_blank">Live site</a></Button>
                                         <Button className="btn btn-outline-secondary mx-1 "><a className="text-decoration-none" href={data.links.githubClient} rel="noreferrer" target="_blank">Client site</a></Button>
-                                        <Button className="btn btn-secondary mx-1 mt-1">Details</Button>
+                                        <Link to={`/projectDetail/${data.id}`}>
+                                            <Button className="btn btn-secondary mx-1 mt-1">Details</Button>
+                                        </Link>
                                     </div>
                                 </div>
 
