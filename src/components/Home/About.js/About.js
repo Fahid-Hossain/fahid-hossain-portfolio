@@ -13,9 +13,10 @@ const About = () => {
                 </div>
                 <div data-aos="fade-down" data-aos-anchor-placement="center-bottom" className="col-12 col-md-5">
                     <div className="about-img about-description">
-                        <h1>About Me</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime enim dolorem rerum libero alias temporibus quaerat totam illo quo tempora praesentium eum numquam, et officia hic ratione cum eveniet voluptas.</p>
-                        <button className="btn btn-primary">Read More</button>
+                        <h1 className="pb-3">About Me</h1>
+                        <p className="fs-6 text-start">Hi, I'm Fahid Hossain, a junior MERN Stack Developer. I am currently working REACT JS .I am comfortable with React JS. I have done many projects recently using React, Firebase, MongoDB, Node JS, and Express JS. I am also familiar with Context API, REST API , Node.js, MongoDb Atlas. I'm doing B.Sc in Mathematics under National University of Bangladesh . Now to achieve my ideal career, I would like to work for an organization where I can expand my skills and abilities.
+                        </p>
+                        {/* <button className="btn btn-primary">Read More</button> */}
                     </div>
                 </div>
 

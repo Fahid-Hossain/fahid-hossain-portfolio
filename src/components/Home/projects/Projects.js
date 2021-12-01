@@ -14,17 +14,17 @@ const Projects = () => {
             })
     }, [])
     return (
-        <div id="projects" className="text-white mt-5 mb-3 container">
-            <h1 className="mb-5">Recent Projects</h1>
+        <div id="projects" className="text-white mt-5 mb-3 projects-section">
+            <h1 className="mb-5"><i>Recent Projects</i></h1>
             <hr />
 
-            <div className="row mb-2">
+            <div className="row mb-2 px-3">
 
                 {
                     myData.map(data =>
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-md-6" data-aos="zoom-in-up">
                             <div className="card flex-md-row mb-4 box-shadow h-md-250 project">
-                                <div className="card-body d-flex flex-column align-items-start">
+                                <div className="card-body d-flex flex-column align-items-start projects-bg">
                                     <strong className="d-inline-block mb-2 text-primary">{data.stack.type}</strong>
                                     <h4 className="mb-0">
                                         <a className="text-dark" href="#">{data.name}</a>
@@ -33,10 +33,10 @@ const Projects = () => {
                                     <p className="card-text mb-auto text-secondary">{data.description}</p>
                                     <div className="pt-2">
 
-                                        <Button className="btn btn-outline-primary"><a href={data.links.liveSite} className="text-decoration-none" rel="noreferrer" target="_blank">Live site</a></Button>
-                                        <Button className="btn btn-outline-secondary mx-1 "><a className="text-decoration-none" href={data.links.githubClient} rel="noreferrer" target="_blank">Client site</a></Button>
+                                        <Button className="btn btn-outline-primary"><a href={data.links.liveSite} className="text-decoration-none ancor" rel="noreferrer" target="_blank">Live site</a></Button>
+                                        <Button className="btn btn-outline-secondary mx-1 "><a className="text-decoration-none ancor" href={data.links.githubClient} rel="noreferrer" target="_blank">Github</a></Button>
                                         <Link to={`/projectDetail/${data.id}`}>
-                                            <Button className="btn btn-secondary mx-1 mt-1">Details</Button>
+                                            <Button className="btn btn-secondary mx-1">Details</Button>
                                         </Link>
                                     </div>
                                 </div>

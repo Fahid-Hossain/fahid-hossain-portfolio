@@ -3,6 +3,9 @@
     width:17rem;
     
 }
+.projects-section{
+    overflow-x: hidden;
+}
 @media (max-width:768px) {
     .project-img{
         display:block;
@@ -14,4 +17,10 @@
     .project-img{
        display:none;
     }
+}
+.ancor:hover{
+    color:white;
+}
+.projects-bg{
+    background-color:rgb(230, 235, 248);
 }

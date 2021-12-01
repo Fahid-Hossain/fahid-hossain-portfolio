@@ -48,7 +48,17 @@
             "second": "Express.JS",
             "third": "MongoDB",
             "fourth": "Firebase",
-            "fifth": "Bootstrap5"
+            "fifth": "Bootstrap5",
+            "sixth":"Environment variable",
+            "seventh":"Context Api"
+        },
+        "details":{
+            "first":"User can booking tour.",
+            "second":"User can manage his/her tour.",
+            "third":"user can also add tour as admin.",
+            "fourth":"Admin can control user dashboard funtionality.",
+            "fifth":"Google sign-in fuctionality.",
+            "sixth":"User can approve booking tour status as admin."
         },
         "links": {
             "liveSite": "https://travel-rhythm.web.app/",
@@ -57,9 +67,10 @@
         },
         "images": {
             "banner":"https://i.ibb.co/fHrpqfT/travel.png",
-            "first": "",
+            "first": "https://i.ibb.co/M7BV42m/travel-rhythm-mocup.png",
             "second": "",
-            "third": ""
+            "third":"https://i.ibb.co/0M7KcQd/travel-rhythm-S-1.png",
+            "fourth": "https://i.ibb.co/zR4KWwP/travel-rhythm-S-3.png"
         }
     },
     {
@@ -73,7 +84,17 @@
             "second": "Express.JS",
             "third": "MongoDB",
             "fourth": "Firebase",
-            "fifth": "Material-UI"
+            "fifth": "Material-UI",
+            "sixth":"useAuth",
+            "seventh":"custom hooks"
+        },
+        "details":{
+            "first":"User can take an appointment by date.",
+            "second":"Booked appointment will show on his/her dashboard.",
+            "third":"Admin can only add new appointment.",
+            "fourth":"Admin will have different dashboard .",
+            "fifth":"Admin can make admin any user.",
+            "sixth":"Get user data by sign-in fuctionality."
         },
         "links": {
             "liveSite": "https://doctors-portal-aada4.web.app/",
@@ -82,9 +103,10 @@
         },
         "images": {
             "banner":"https://i.ibb.co/cFqhCXH/doctors-portal.png",
-            "first": "",
-            "second": "",
-            "third": ""
+            "first": "https://i.ibb.co/Pr8N0Nc/doctors-portal-mockup.png",
+            "second": "https://i.ibb.co/dfRG5Tp/doctors-portal-S-1.png",
+            "third": "https://i.ibb.co/QmMgkJY/doctors-portal-S-2.png",
+            "fourth":"https://i.ibb.co/ky0Gqb1/doctors-portal-S-3.png"
         }
     },
     {
