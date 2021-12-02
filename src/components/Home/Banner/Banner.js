@@ -15,7 +15,7 @@ const Banner = () => {
             <img className="mt-5 pt-2 img-fluid" src={img2} alt="" style={{ width: "3rem", float: "left" }} />
             <div className="row align-items-start">
                 <div data-aos="flip-left" className="col-12 col-md-6 banner">
-                    <span className="banner-welcome">Welcome to my world !</span>
+                    <span className="text-white">Welcome to my world !</span>
                     <h1 className="text-warning">Hi, I am Fahid Hossain</h1>
                     <h2 className="banner-developer">
                         <Typical
@@ -30,12 +30,13 @@ const Banner = () => {
                             ]}
                         >
                         </Typical>
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/fahid-hossain/"><i className="fab fa-linkedin px-2 fs-4"></i></a>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/Fahid-Hossain"><i className="fab fa-github px-2 fs-4"></i></a>
-                    <a target="_blank" rel="noreferrer" href="https://join.skype.com/invite/xbRGUklEnesf"><i className="fab fa-skype px-2 fs-4"></i></a>
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/fahid-hossain/"><i className="fab fa-linkedin px-2 fs-2"></i></a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/Fahid-Hossain"><i className="fab fa-github px-2 fs-2"></i></a>
+                    <a target="_blank" rel="noreferrer" href="https://join.skype.com/invite/xbRGUklEnesf"><i className="fab fa-skype px-2 fs-2"></i></a>
                     </h2>
 
                     <a href="fahid-Hossain's-Resume.pdf" download="fahid-Hossain's-Resume.pdf"><button className="btn btn-outline-warning">Get Resume</button></a>
+                    <a href="#contact"><button className="btn btn-outline-info mx-2">Hire me</button></a>
                 </div>
                 <div data-aos="zoom-in-left" className="col-12 col-md-6 banner-img">
                     <img className="img-fluid" src={img} alt="" style={{ width: "80%" }} />

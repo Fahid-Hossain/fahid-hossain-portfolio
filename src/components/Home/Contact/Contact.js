@@ -59,7 +59,7 @@ const Contact = () => {
                 <br />
 
                 <Button className="btn btn-primary" type="submit">
-                    Send
+                    Send <i class="fas fa-paper-plane"></i>
                 </Button>
             </Form>
 

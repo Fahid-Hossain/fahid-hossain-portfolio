@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter,Switch, Route } from 'react-router-dom'
 import ProjectDetails from './components/Home/projects/projectDetails/ProjectDetails';
 import Navigation from './components/Navigation/Navigation';
+import Footer from './components/Footer/Footer';
 // import ProjectDetails from './components/Home/projects/projectDetails/ProjectDetails';
 // import Layout from '../containers/Layout'
 
@@ -22,6 +23,9 @@ function App() {
             <ProjectDetails></ProjectDetails>
           </Route>
         </Switch>
+        <Route>
+        <Footer></Footer>
+      </Route>
       </BrowserRouter>
     </div>
   );
