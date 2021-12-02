@@ -35,7 +35,7 @@ const Banner = () => {
                     <a target="_blank" rel="noreferrer" href="https://join.skype.com/invite/xbRGUklEnesf"><i className="fab fa-skype px-2 fs-2"></i></a>
                     </h2>
 
-                    <a href="/fahid-Hossain's-Resume.pdf" download="fahid-Hossain's-Resume.pdf"><button className="btn btn-outline-warning">Get Resume</button></a>
+                    <a href="https://drive.google.com/file/d/169fA27isTLumEzJI74cQ3TNtJeJ0Rj9X/view?usp=sharing" download="fahid-Hossain's-Resume.pdf"><button className="btn btn-outline-warning">Get Resume</button></a>
                     <a href="#contact"><button className="btn btn-outline-info mx-2">Hire me</button></a>
                 </div>
                 <div data-aos="zoom-in-left" className="col-12 col-md-6 banner-img">
