@@ -6,7 +6,7 @@ import img from "../../../../src/images/dream-bg.png"
 const About = () => {
     return (
         <div id="about" className="text-white bg-dark container">
-            <img src={img} alt="" className="img-fluid" style={{ width: "4.5rem", float: "right" }} />
+            <img src={img} alt="" className="img-fluid" style={{ width: "4rem", float: "right" }} />
             <div className="row">
                 <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" className="col-12 col-md-6">
                     <img className="img-fluid" src={fahid} alt="" style={{ width: "100%" }} />

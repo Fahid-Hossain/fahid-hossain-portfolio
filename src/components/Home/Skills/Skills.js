@@ -65,7 +65,7 @@ const Skills = () => {
 
 
                 {/* --------------------  */}
-                <div className="col-12 col-md-6 mx-3">
+                <div className="col-12 col-md-6 px-2">
                     <div className="row">
                         <div className="col-6 col-sm-3 py-1 card-main">
                             <div className="card card-item" data-aos="flip-left">
