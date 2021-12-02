@@ -3,7 +3,7 @@ import "./skills.css"
 
 const Skills = () => {
     return (
-        <div id="skills" className="text-dark skills-section">
+        <div id="skills" className="text-dark container">
             <h1 className="text-white mt-5"><i>MY SKILLS</i></h1>
             <hr className="text-white" />
             <div data-aos="fade-right" className="row ps-3">
@@ -65,9 +65,9 @@ const Skills = () => {
 
 
                 {/* --------------------  */}
-                <div className="col-12 col-md-6 me-3">
+                <div className="col-12 col-md-6 mx-3">
                     <div className="row">
-                        <div className="col-6 col-sm-3 py-3 card-main">
+                        <div className="col-6 col-sm-3 py-1 card-main">
                             <div className="card card-item" data-aos="flip-left">
                                 <div className="card-body card-bg">
                                     <h5 className="card-title"><i className="fab fa-html5 fs-1"></i></h5>
@@ -75,7 +75,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6 col-sm-3 py-3">
+                        <div className="col-6 col-sm-3 py-1">
                             <div className="card card-item-two" data-aos="flip-right">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fab fa-css3-alt fs-1"></i></h5>
@@ -83,7 +83,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-sm-3 py-3">
+                        <div className="col-12 col-sm-3 py-1">
                             <div className="card" data-aos="flip-left">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fab fa-node-js fs-1"></i></h5>
@@ -91,7 +91,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-12 col-sm-3 py-3">
+                        <div className="col-12 col-sm-3 py-1">
                             <div className="card card-item" data-aos="flip-up">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fab fa-react fs-1"></i></h5>
@@ -99,7 +99,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-3 py-3">
+                        <div className="col-sm-3 py-1">
                             <div className="card card-item-two" data-aos="flip-bottom">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fab fa-node fs-1"></i></h5>
@@ -107,7 +107,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6 col-sm-3 py-3">
+                        <div className="col-6 col-sm-3 py-1">
                             <div className="card" data-aos="flip-up">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fas fa-cogs fs-1"></i></h5>
@@ -115,7 +115,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6 col-sm-3 py-3">
+                        <div className="col-6 col-sm-3 py-1">
                             <div className="card card-item-two" data-aos="flip-right">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fas fa-tasks fs-1"></i></h5>
@@ -123,7 +123,7 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6 col-sm-3 py-3">
+                        <div className="col-6 col-sm-3 py-1">
                             <div className="card card-item" data-aos="flip-left">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fas fa-fire-alt fs-1"></i></h5>
@@ -131,15 +131,15 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6 col-sm-3 py-3">
+                        <div className="col-6 col-sm-3 py-1">
                             <div className="card" data-aos="flip-up">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fab fa-bootstrap fs-1"></i></h5>
-                                    <p className="card-text card-title-style">Bootstrap5</p>
+                                    <p className="card-text card-title-style">Bootstrap</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6 col-sm-3 py-3">
+                        <div className="col-6 col-sm-3 py-1">
                             <div className="card card-item-two" data-aos="flip-bottom">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fas fa-sync-alt fs-1"></i></h5>
@@ -147,15 +147,15 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-6 col-sm-3 py-3" data-aos="flip-left">
+                        <div className="col-6 col-sm-3 py-1" data-aos="flip-left">
                             <div className="card card-item">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fab fa-stack-overflow fs-1"></i></h5>
-                                    <p className="card-text card-title-style">Material UI</p>
+                                    <p className="card-text card-title-style">MUI</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-3 py-3">
+                        <div className="col-sm-3 py-1">
                             <div className="card" data-aos="flip-right">
                                 <div className="card-body card-bg">
                                 <h5 className="card-title"><i className="fab fa-github-square fs-1"></i></h5>

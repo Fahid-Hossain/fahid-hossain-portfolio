@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 
 const Banner = () => {
     useEffect(() => {
-        Aos.init({ duration: 2000 });
+        Aos.init({ duration: 1200 });
     }, []);
     return (
         <div id="home" className="mt-5">

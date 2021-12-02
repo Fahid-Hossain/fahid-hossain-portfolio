@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Chasmish Glasses Store",
+        "name": "Chasmish-Glasses",
         "date":"Nov 2021",
         "description": "A Glasses online store,where user can buy glasses",
         "stack": {
@@ -28,7 +28,7 @@
             "githubServer": "https://github.comFahid-HossainGlasses-store-website-server-side"
         },
         "images": {
-            "banner":"https://i.ibb.co/180nFnS/chashmish.png",
+            "banner":"https://i.ibb.co/fSsXr3g/chasmish-mockup-01.png",
             "first": "https://i.ibb.co/p2D38XC/chasmish-3-device.png",
             "third": "https://i.ibb.co/ykbKShb/chasmish-S-1.png",
             "fourth": "https://i.ibb.co/gDjv64X/chasmish-S-2.png",
@@ -39,9 +39,9 @@
     },
     {
         "id": 2,
-        "name": "Travel Rhythm",
+        "name": "Travel-Rhythm",
         "date":"Oct 2021",
-        "description": "A Travel Agency's Websites,Tourists can book tour here.",
+        "description": "A Travel Agency's Website,user can book tour here.",
         "stack": {
             "type": "MERN Stack",
             "first": "React JS",
@@ -66,7 +66,7 @@
             "githubServer": "https://github.com/Fahid-Hossain/tourism-booking-website-server-side-"
         },
         "images": {
-            "banner":"https://i.ibb.co/fHrpqfT/travel.png",
+            "banner":"https://i.ibb.co/4Kr7KGn/travel-mockup-01.png",
             "first": "https://i.ibb.co/M7BV42m/travel-rhythm-mocup.png",
             "second": "",
             "third":"https://i.ibb.co/0M7KcQd/travel-rhythm-S-1.png",
@@ -75,7 +75,7 @@
     },
     {
         "id": 3,
-        "name": "Doctors Portal",
+        "name": "Doctors-Portal",
         "date":"Sep 2021",
         "description": "Doctors appointment taken and health services website.",
         "stack": {
@@ -102,7 +102,7 @@
             "githubServer": "https://github.com/Fahid-Hossain/doctors-portal-server-site"
         },
         "images": {
-            "banner":"https://i.ibb.co/cFqhCXH/doctors-portal.png",
+            "banner":"https://i.ibb.co/sRKgM1L/doctors-portal-mockup-01.png",
             "first": "https://i.ibb.co/Pr8N0Nc/doctors-portal-mockup.png",
             "second": "https://i.ibb.co/dfRG5Tp/doctors-portal-S-1.png",
             "third": "https://i.ibb.co/QmMgkJY/doctors-portal-S-2.png",
@@ -111,7 +111,7 @@
     },
     {
         "id": 4,
-        "name": "Docmed Health Care",
+        "name": "Docmed-Health",
         "date":"Sep 2021",
         "description": "Online Health Care Services detailed provided website.",
         "stack": {
@@ -138,7 +138,7 @@
             "githubServer": ""
         },
         "images": {
-            "banner":"https://i.ibb.co/rF8sQ9v/docmed.png",
+            "banner":"https://i.ibb.co/rcSNCf4/docmed-mockup-01.png",
             "first": "https://i.ibb.co/ydhRNNY/docmed-mockup.png",
             "second": "https://i.ibb.co/S6HW0kY/docmed-S-2.png",
             "third": "https://i.ibb.co/Y8tQnJC/docmed-S-3.png",

@@ -1,19 +1,19 @@
-.skills-section{
+/* .skills-section{
     padding-top:4rem;
     padding-bottom: 3rem;
     overflow-x: hidden;
-}
+} */
 .card-item{
-    color: rgb(0, 0, 255);
+    color: rgb(12, 100, 12);
 }
 .card-item-two{
-    color:rgb(211, 82, 8)
+    color:rgb(160, 65, 10)
 }
 .card-bg{
-    background-color:rgba(160, 160, 175, 0.767);
+    background-color:rgba(125, 125, 145, 0.767);
 }
 .card-title-style{
-    font-weight:bolder;
+    font-weight:bold;
 }
 
 @media (max-width: 768px){

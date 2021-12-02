@@ -1,5 +1,5 @@
 .project-img{
-    height:20rem;
+    height:17rem;
     width:17rem;
     
 }
@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (min-width:768px) and (max-width:990px) {
+@media screen and (min-width:768px) and (max-width:1200px) {
     .project-img{
        display:none;
     }
@@ -22,5 +22,5 @@
     color:white;
 }
 .projects-bg{
-    background-color:rgb(230, 235, 248);
+    /* background-color:rgb(201, 202, 206); */
 }

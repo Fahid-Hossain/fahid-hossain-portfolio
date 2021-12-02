@@ -14,7 +14,7 @@ const Projects = () => {
             })
     }, [])
     return (
-        <div id="projects" className="text-white mt-5 mb-3 projects-section">
+        <div id="projects" className="text-white mt-5 mb-3 container">
             <h1 className="mb-5"><i>Recent Projects</i></h1>
             <hr />
 
