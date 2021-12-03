@@ -10,7 +10,7 @@ const Navigation = () => {
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <img src={logo} alt="" style={{width:"7rem"}}/>
+                        <a href="#home"><img src={logo} alt="" style={{width:"7rem"}}/></a>
                         <Nav className="ms-auto">
                             <Nav.Link href="/#home"  className="navlink">HOME</Nav.Link>
                             <Nav.Link href="/#about" className="navlink">ABOUT</Nav.Link>

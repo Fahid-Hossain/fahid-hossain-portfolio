@@ -3,10 +3,10 @@ import "./skills.css"
 
 const Skills = () => {
     return (
-        <div id="skills" className="text-dark container">
-            <h1 className="text-white mt-5"><i>MY SKILLS</i></h1>
+        <div id="skills" className="text-dark container pt-md-5">
+            <h1 className="text-white mt-5 pb-1"><i>MY SKILLS</i></h1>
             <hr className="text-white" />
-            <div data-aos="fade-right" className="row ps-3">
+            <div data-aos="fade-right" className="row">
 
                 {/* ------------------- */}
                 <div className="col-12 col-md-5 text-white mx-auto">
@@ -65,7 +65,7 @@ const Skills = () => {
 
 
                 {/* --------------------  */}
-                <div className="col-12 col-md-6 px-2">
+                <div className="col-12 col-md-6">
                     <div className="row">
                         <div className="col-6 col-sm-3 py-1 card-main">
                             <div className="card card-item" data-aos="flip-left">

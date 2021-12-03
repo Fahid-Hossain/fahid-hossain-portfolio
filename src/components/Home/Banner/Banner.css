@@ -8,11 +8,19 @@
     color: tomato;
 }
 
+.side-img{
+    width:3rem;
+    float:left;
+}
+
 @media  (max-width: 768px){
     .banner{
         padding-top:5rem;
     }
     .banner-img{
         padding-top:3rem;
+    }
+    .side-img{
+        width:2.2rem;
     }
 }

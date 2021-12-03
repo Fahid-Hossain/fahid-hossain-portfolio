@@ -14,8 +14,8 @@ const Projects = () => {
             })
     }, [])
     return (
-        <div id="projects" className="text-white mt-5 mb-3 container">
-            <h1 className="mb-5"><i>Recent Projects</i></h1>
+        <div id="projects" className="text-white mt-5 mb-3 container pt-md-5">
+            <h1 className="mb-0 mt-5"><i>Recent Projects</i></h1>
             <hr />
 
             <div className="row mb-2 px-3">
@@ -36,7 +36,7 @@ const Projects = () => {
                                         <Button className="btn btn-outline-primary"><a href={data?.links?.liveSite} className="text-decoration-none ancor" rel="noreferrer" target="_blank">Live site</a></Button>
                                         <Button className="btn btn-outline-secondary mx-1 "><a className="text-decoration-none ancor" href={data?.links?.githubClient} rel="noreferrer" target="_blank">Github</a></Button>
                                         <Link to={`/projectDetail/${data?.id}`}>
-                                            <Button className="btn btn-secondary mx-1">Details</Button>
+                                            <Button className="btn btn-secondary mx-1 mt-1">Details</Button>
                                         </Link>
                                     </div>
                                 </div>

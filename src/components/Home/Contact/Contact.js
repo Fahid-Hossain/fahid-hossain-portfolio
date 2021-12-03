@@ -22,7 +22,7 @@ const Contact = () => {
     };
     return (
         <div id="contact" className="container contact" data-aos="zoom-in-up">
-            <h1 className="text-warning contact-heading">Contact</h1>
+            <h1 className="text-warning contact-heading">Get to Touch</h1>
             <Form onSubmit={sendEmail} className="form">
                 <>
                     <FloatingLabel

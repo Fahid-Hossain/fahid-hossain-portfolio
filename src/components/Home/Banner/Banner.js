@@ -12,7 +12,7 @@ const Banner = () => {
     }, []);
     return (
         <div id="home" className="mt-5">
-            <img className="mt-5 pt-2 img-fluid" src={img2} alt="" style={{ width: "3rem", float: "left" }} />
+            <img className="mt-5 pt-2 img-fluid side-img" src={img2} alt="" />
             <div className="row align-items-start">
                 <div data-aos="flip-left" className="col-12 col-md-6 banner">
                     <span className="text-white">Welcome to my world !</span>
